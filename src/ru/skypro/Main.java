@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code
+        System.out.println("Задача 1");
         byte a = 12;
         short b = 12356;
         int c = - 528;
@@ -11,7 +12,8 @@ public class Main {
         float e = 36.6f;
         double g = 3.14;
         char h = 15;
-        boolean j = true;
+        boolean aIsAdult = a > 5;
+        System.out.println(aIsAdult);
 
         System.out.println("Задача 2");
         var weight1boxer = 78.2;
