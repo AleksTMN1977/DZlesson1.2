@@ -45,6 +45,28 @@ public class Main {
         System.out.println("После повышения зарплаты Денис будет получать " + (salaryD + salaryD * 0.1) + " рублей в месяц. Увеличение зарплаты за год составит " + salaryD * 0.1 *12 + " руб.");
         System.out.println("После повышения зарплаты Кристина будет получать " + (salaryK + salaryK * 0.1) + " рублей в месяц. Увеличение зарплаты за год составит " + salaryK * 0.1 *12 + " руб.");
 
+        System.out.println("Задача 6");
+            int x = 12;
+            int y = 27;
+            int z = 44;
+            int m = 15;
+            int n = 9;
+            int result = - x * (y + (z - m * n));
+            System.out.println(result);
+
+            System.out.println("Задача 7");
+            int k = 5;
+            int l = 7;
+            k = k * l;
+            l = k / l;
+            k = k / l;
+            System.out.println("k = " + k + " l = " + l);
+
+            System.out.println("Задача 8");
+            int q = 859;
+            int w;
+            w = q / 10 % 10;
+            System.out.println("w =   " + w);
 
 
 
