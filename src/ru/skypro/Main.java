@@ -67,8 +67,5 @@ public class Main {
             int w;
             w = q / 10 % 10;
             System.out.println("w =   " + w);
-
-
-
     }
 }
